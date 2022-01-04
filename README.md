@@ -24,8 +24,63 @@ SuMinerProxy支持一键在windows和Linux系统上搭建矿池抽水代理，�
 推荐使用Linux系统，能够获得更加稳定和更加流畅的运行环境。Linux系统包含Ubuntu和centos均可适配。
 
 ### 登录服务器
-```c
->>
-```
 ### 开始安装
 #### Linux系统（直接复制下列指令到服务器后台然后回车）
+```c
+git clone https://github.com/suminerProxy/suminerProxy.git && cd suminerProxy && chmod 777 install.sh && ./install.sh
+```
+开始执行自动安装脚本，安装过程中如果让输入直接输入Y然后回车，需要选择也直接选择安装完成后出现下图红色分割线隔开的文字。
+![](https://user-images.githubusercontent.com/97101851/148113201-5d2e1213-358b-4dbb-bb54-3baf330f4a05.png)
+则在本地浏览器输入你的ip地址:port进入管理后台，如图上文字显示我的ip为43.155.67.90,port为18888，则在浏览器地址栏输入43.155.67.90:18888进入管理后台。
+第一次加载时间可能比较长，因为服务器在国外，建议使用谷歌浏览器和梯子使用。如果需要梯子，可进群私聊管理使用免费加速。
+网页提示输入的token即密码，在红色文字部分，直接复制到过去点击确认就好啦！
+
+如果出现下列错误：
+![](https://user-images.githubusercontent.com/97101851/148114534-541ae189-23cf-4cd9-a12d-cded8dd16e00.png)
+请输入下列命令安装git。
+##### ubuntu系统
+```C
+sudo su
+apt-get update
+apt-get upgrade
+apt-get install git
+```
+##### centos系统
+```C
+yum update
+yum upgrade
+yum install git
+```
+
+#### windows系统
+下载软件压缩包到本地文件夹，建议放在D盘根目录文件夹，方便后面查找。
+下载终端软件，推荐使用MobaXterm连接服务器，附上[国内中文版下载链接](https://wwi.lanzouw.com/isg1rye073i)
+MobaXterm连接流程:打开终端 -> 点击会话 -> 选择RDP -> 输入你的主机ip和用户名（默认用户名:Administrator）-> 点击确定
+![](https://user-images.githubusercontent.com/97101851/148116407-45337f58-e429-4421-8e3e-ffe741befa1e.png)
+
+![](https://user-images.githubusercontent.com/97101851/148116556-2dd3c23f-ceca-45d0-a52e-955f474d9b63.png)
+
+连接成功后就可以进入我们熟悉的windows输入密码界面，输入密码后就可以进入我们最爱的windows桌面啦！
+使用MobaXterm连接服务器可直接在我的电脑里面访问我们本地的文件，打开此电脑。
+
+![](https://user-images.githubusercontent.com/97101851/148117061-1fa52304-6a6e-4343-ae6b-23a6c6d03c8f.png)
+
+从上面图我们可以看到此电脑里有 ……上的C、D、E等盘符，这就是我们本地电脑上的C、D、E盘，打开我们刚刚存的文件夹，把suminerProxy_windows.exe文件拖到服务器桌面，双击运行就好啦！
+同样会出现一个这样的黑框，仔细看里面文字，在本地浏览器输入你的ip地址:port进入管理后台，如图上文字显示我的ip为43.155.67.90,port为18888，则在浏览器地址栏输入43.155.67.90:18888进入管理后台。
+第一次加载时间可能比较长，因为服务器在国外，建议使用谷歌浏览器和梯子使用。如果需要梯子，可进群私聊管理使用免费加速。
+网页提示输入的token即密码，在红色文字部分，直接复制到过去点击确认就好啦！
+
+### 注意事项
+
+###所有的涉及到的端口都需要提前到服务器管理后台的防火墙或者安全组打开对应端口哦！！！
+
+如果在安装过程中有任何问题可直接加群私聊管理员解决哦！也可接受全定制服务哦！
+
+# 加群私聊管理员领取隐藏ip、规避检查攻略，获取免费技术指导哦！
+
+# 您的信任是我们努力的方向！
+
+TG:https://t.me/+1hnMqBXqxsAyMGRl
+
+![](https://user-images.githubusercontent.com/97101851/148119356-a89b4186-cfa7-4c93-9c6b-f08735e0cb67.jpg)
+
