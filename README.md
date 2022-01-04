@@ -1,16 +1,31 @@
-### Hi there 👋
+SuMinerProxy
+================
+一款可以屏蔽服务商监控的矿池抽水代理软件，目前固定开发者费用为2%！！！
+----------------
+SuMinerProxy支持一键在windows和Linux系统上搭建矿池抽水代理，使用ssl/tcp转发加密传输数据，支持一键屏蔽服务商的监管系统，使你的行为更加安全私密，防止服务器ip被查封。
+可拓展匿名代理，保护服务器，防止DDOS攻击，让你的用户更加信赖你！
+软件提供可视化界面，可一键管理转发和抽水端口，实时监测用户算力状态。
 
-<!--
-**suminerProxy/suminerProxy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![](https://user-images.githubusercontent.com/97101851/148109476-959c3a4c-b197-4761-b9cb-f8c4f1865b2a.png)
 
-Here are some ideas to get you started:
+![](https://user-images.githubusercontent.com/97101851/148109705-e3ca0848-f1d6-4eac-a63b-eda4aea867cf.png)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+用户算力曲线完整，损失小，下图示例2.5G算力抽水3%客户端算力曲线。
+
+![](https://user-images.githubusercontent.com/97101851/148109963-d1f88226-7e06-4ba4-a1e5-555d2b8340e8.png)
+
+
+软件安装
+------------------------------------------------------------------------------------------------------------
+### 开始前准备
+购买云服务器，可以参考[六家云厂商价格比较：AWS、阿里云、Azure、Google Cloud、华为云、腾讯云](https://zhuanlan.zhihu.com/p/80407877)这篇博客，这里推荐使用腾讯云香港区域服务器，
+本脚本可自动屏蔽腾讯云监管后台，后续加群可拓展隐藏ip功能，故不用太担心封ip问题。
+配置可选择最低配置，连接设备1000台设备推荐购买2核心1G内存2M带宽，其他数量以此类推，不建议购买阿里云轻量级服务器，问题太多不好解决!
+推荐使用Linux系统，能够获得更加稳定和更加流畅的运行环境。Linux系统包含Ubuntu和centos均可适配。
+
+### 登录服务器
+```c
+>>
+```
+### 开始安装
+#### Linux系统（直接复制下列指令到服务器后台然后回车）
