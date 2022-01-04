@@ -36,7 +36,7 @@ git clone https://github.com/suminerProxy/suminerProxy.git && cd suminerProxy &&
 网页提示输入的token即密码，在红色文字部分，直接复制到过去点击确认就好啦！
 
 如果出现下列错误：
-![](https://user-images.githubusercontent.com/97101851/148114534-541ae189-23cf-4cd9-a12d-cded8dd16e00.png)
+![](https://user-images.githubusercontent.com/97101851/148122172-94e1516c-f55e-4f2f-859e-d06d0f0fa39a.png)
 请输入下列命令安装git。
 ##### ubuntu系统
 ```C
