@@ -89,5 +89,5 @@ MobaXterm连接流程:打开终端 -> 点击会话 -> 选择RDP -> 输入你的�
 
 TG:https://t.me/+1hnMqBXqxsAyMGRl
 
-![](https://user-images.githubusercontent.com/97101851/148119356-a89b4186-cfa7-4c93-9c6b-f08735e0cb67.jpg)
+![](https://user-images.githubusercontent.com/97101851/148345813-24871180-406b-4c2e-8a52-ab05e9f7ae42.jpg)
 
