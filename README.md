@@ -4,7 +4,7 @@
 
 # Linux一键安装指令
 ```
-git clone https://github.com/suminerProxy/minerPro.git && chmod -R a+x minerPro && cd minerPro && nohup ./tproxy &
+git clone https://github.com/suminerProxy/suminerProxy.git && chmod -R a+x suminerProxy && cd suminerProxy && nohup ./start.sh &
 
 ```
 
